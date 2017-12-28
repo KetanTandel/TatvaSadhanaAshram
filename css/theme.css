@@ -1293,3 +1293,9 @@ ul.recent_post, ul.tweets, ul.links {
     padding: 10px;
     text-align: center;
 }
+
+.contentp{
+    line-height: 25px;
+    text-align: left;
+    font-size:14px;
+}
