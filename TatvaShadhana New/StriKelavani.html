@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Tatva Sadhana Ashram</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+    <link href="css/camera.css" rel="stylesheet" />
+    <link rel="stylesheet" id="camera-css" href="css/camera.css" type="text/css" media="all" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/theme.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/skins/tango/skin.css" />
+    <link href="css/bootstrap-responsive.css" rel="stylesheet" />
+    <script src="jquery.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <style>
+        h2 {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <!--header-->
+    <div id="headerContent"></div>
+    <!--//header-->
+    <div class="wrap planning" style="padding-top:15px;">
+        <div class="container">
+            <div class="row">
+                <div class="span8">
+                    <h2>Stri Kelavani Content</h2>
+                </div>
+                <div class="span4">
+                    <h2>Stri Kelavani Image</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span4">
+                    <h2>Stri Kelavani Image</h2>
+                </div>
+                <div class="span8">
+                    <h2>Stri Kelavani Content</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span8">
+                    <h2>Stri Kelavani Content</h2>
+                </div>
+                <div class="span4">
+                    <h2>Stri Kelavani Image</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span4">
+                    <h2>Stri Kelavani Image</h2>
+                </div>
+                <div class="span8">
+                    <h2>Stri Kelavani Content</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <div id="footerContent"></div>
+    <!--//footer-->
+
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile.customized.min.js"></script>
+    <script type="text/javascript" src="js/camera.js"></script>
+    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="js/jquery.jcarousel.js"></script>
+    <script type="text/javascript" src="js/jquery.tweet.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("#headerContent").load("Header.html");
+        });
+        $(function () {
+            $("#footerContent").load("Footer.html");
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //Slider
+            $('#camera_wrap_1').camera();
+
+            //Featured works & latest posts
+            $('#mycarousel, #mycarousel2, #newscarousel').jcarousel();
+        });
+    </script>
+</body>
+
+</html>
