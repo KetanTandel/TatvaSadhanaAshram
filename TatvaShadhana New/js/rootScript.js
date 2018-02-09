@@ -20,6 +20,9 @@ app.config(function ($routeProvider) {
     .when("/BalKelavani", {
         templateUrl: "gujarati/BalKelavani.html"
     })
+    .when("/StreeKelavani", {
+        templateUrl: "gujarati/StreeKelavani.html"
+    })
     .when("/Yog", {
         templateUrl: "gujarati/Yog.html"
     })
